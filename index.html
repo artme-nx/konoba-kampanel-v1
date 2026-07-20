@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Konoba Kampanel, Biograd na Moru — Riba s gradela, janjetina ispod peke, dagnje iz Jadrana. Tradicija dalmatinskog stola u srcu starog Biograda." />
+  <meta name="description" content="Konoba Kampanel, Biograd na Moru — dalmatinska riblja kuhinja u podnožju zvonika sv. Stošije. Kralja Kolomana 7, otvoreno svaki dan od 17:00." />
   <title>Konoba Kampanel — Biograd na Moru</title>
 
   <!-- Google Fonts -->
@@ -644,6 +644,8 @@
       grid-template-columns: 1fr 1fr;
       gap: clamp(24px, 4vw, 48px);
     }
+
+    .menu-grid .menu-category:nth-child(3):last-child { grid-column: 1 / -1; }
 
     .menu-category {
       background: #fff;
@@ -1302,7 +1304,7 @@
       <ul class="header-nav" role="list">
         <li><a href="#prica">Naša priča</a></li>
         <li><a href="#jelovnik">Jelovnik</a></li>
-        <li><a href="#biograd">Biograd</a></li>
+        <li><a href="#biograd">Recenzije</a></li>
         <li><a href="#galerija">Galerija</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
       </ul>
@@ -1329,7 +1331,7 @@
     <nav>
       <a href="#prica"     class="mobile-nav-link">Naša priča</a>
       <a href="#jelovnik"  class="mobile-nav-link">Jelovnik</a>
-      <a href="#biograd"   class="mobile-nav-link">Biograd</a>
+      <a href="#biograd"   class="mobile-nav-link">Recenzije</a>
       <a href="#galerija"  class="mobile-nav-link">Galerija</a>
       <a href="#rezervacije" class="mobile-nav-link">Rezervacije</a>
       <a href="#kontakt"   class="mobile-nav-link">Kontakt</a>
@@ -1358,8 +1360,8 @@
     <section class="hero" id="hero" aria-label="Dobrodošli u Konoba Kampanel">
       <img
         class="hero-bg"
-        src="https://loremflickr.com/1600/900/konoba,evening,dalmatian?lock=101"
-        alt="Konoba Kampanel — večernje ozračje dalmatinske konobe"
+        src="img/kampanel-dvoriste-maslina.webp"
+        alt="Kameno dvorište Konobe Kampanel s maslinom, u sumrak"
         fetchpriority="high"
         loading="eager"
       />
@@ -1369,10 +1371,10 @@
         <p class="hero-eyebrow">Biograd na Moru, Dalmacija</p>
 
         <h1 class="hero-h1">
-          <span class="word"><span class="word-inner">Riba</span></span>&nbsp;<span class="word"><span class="word-inner">iz</span></span>&nbsp;<span class="word"><span class="word-inner">mora<span class="period">.</span></span></span>&nbsp;<span class="word"><span class="word-inner">Peka</span></span>&nbsp;<span class="word"><span class="word-inner">iz</span></span>&nbsp;<span class="word"><span class="word-inner">ognja<span class="period">.</span></span></span>&nbsp;<span class="word"><span class="word-inner">Biograd</span></span>&nbsp;<span class="word"><span class="word-inner">u</span></span>&nbsp;<span class="word"><span class="word-inner">srcu<span class="period">.</span></span></span>
+          <span class="word"><span class="word-inner">Riba</span></span>&nbsp;<span class="word"><span class="word-inner">iz</span></span>&nbsp;<span class="word"><span class="word-inner">mora<span class="period">.</span></span></span>&nbsp;<span class="word"><span class="word-inner">Konoba</span></span>&nbsp;<span class="word"><span class="word-inner">pod</span></span>&nbsp;<span class="word"><span class="word-inner">zvonikom<span class="period">.</span></span></span>&nbsp;<span class="word"><span class="word-inner">Biograd</span></span>&nbsp;<span class="word"><span class="word-inner">u</span></span>&nbsp;<span class="word"><span class="word-inner">srcu<span class="period">.</span></span></span>
         </h1>
 
-        <p class="hero-sub">Tradicija dalmatinskog stola od mora do vatre</p>
+        <p class="hero-sub">Dalmatinska riblja kuhinja u podnožju zvonika</p>
       </div>
 
       <div class="scroll-indicator" aria-hidden="true">
@@ -1391,8 +1393,8 @@
         <!-- Manifest -->
         <div class="prica-manifest reveal">
           <p>
-            "Kampanel" — to je kameniti zvonik koji čuva Biograd već stoljećima. Stoji nad uskim uličicama
-            starog grada, nad morem i mještanima koji su ga gradili kamen po kamen.
+            "Kampanel" — kameni zvonik crkve sv. Stošije, koji se nad starim gradom Biograda
+            uzdiže još od druge polovice 9. stoljeća.
             Mi smo konoba koja nosi to ime s poštovanjem. I s ponosom.
           </p>
         </div>
@@ -1413,34 +1415,31 @@
         <div class="prica-split">
 
           <div class="prica-text-col">
-            <h2 class="t-h2 reveal" id="prica-h2">Ime koje nosi<br><em>povijest Biograda</em></h2>
+            <h2 class="t-h2 reveal" id="prica-h2">Ime koje nosi<br><em>povijest zvonika</em></h2>
 
             <p class="reveal">
-              Kampanel. Na dalmatinskom dijalektu — kameniti zvonik, campanile. U Biogradu na Moru, tom
-              drevnom kraljevskom gradu, zvonilo je ime ovog mjesta kroz stoljeća. Biograd je bio
-              <strong>sjedište hrvatskih vladara</strong>, grad koji je svjedočio krunidbi kraljeva
-              i jedrilje brojnih flota prema Kornatu i Pašmanu.
+              Kampanel — na dalmatinskom kameni zvonik, campanile. Naš zvonik je onaj crkve
+              <strong>sv. Stošije</strong> u starom gradu Biograda: po njemu je konoba i dobila ime.
             </p>
 
             <p class="reveal">
-              Naša konoba nastala je iz iste te ljubavi prema kamenu, moru i ognju. Riba dolazi
-              svako jutro s brodova u biogradskoj marini — svježa, iz Jadrana kojeg možemo
-              dodirnuti rukom. Janjetina i teletina polako se peku <strong>ispod peke</strong>,
-              sat po sat, dok se dim diže prema kamenom svodu. Dagnje i kamenice stižu
-              iz uzgajališta između Pašmana i kopna — čiste, slane, žive.
+              Konoba Kampanel smjestila se u srcu starog grada, doslovno u podnožju tog zvonika,
+              a kamena terasa gleda ravno u toranj. Prema povijesnim
+              istraživanjima, zvonik i predvorje crkve sv. Stošije potječu iz <strong>druge polovice
+              9. stoljeća</strong>, iz istog doba kad je podignuta i trobrodna crkva.
             </p>
 
             <p class="reveal">
-              Ovdje se ništa ne žuri. Kao što se nije žurilo ni centuries before us — ni biogradski
-              ribari ni kameni zidari koji su podigli campanile koji i danas stoji nad gradom.
-              Sjednite, naručite domaće vino, pustite da <strong>dalmacinski tempo</strong> postane vaš.
+              Današnja župna crkva sv. Anastazije (sv. Stošije) izgrađena je <strong>1761. godine</strong>,
+              s pet baroknih oltara, a kameni zvonik i dalje se uzdiže na njezinoj sjevernoj strani.
+              Pod njim, u kamenoj konobi, kuha se dalmatinska riblja kuhinja.
             </p>
           </div>
 
           <div class="prica-image-col reveal">
             <img
-              src="https://loremflickr.com/800/1000/konoba,rustic,stone?lock=102"
-              alt="Rustičan kamen i drvo — unutrašnjost Konobe Kampanel"
+              src="img/kampanel-kameni-interijer.webp"
+              alt="Kameni interijer Konobe Kampanel s drvenim stolovima i ulaznim vratima"
               loading="lazy"
               id="prica-parallax-img"
             />
@@ -1462,80 +1461,15 @@
 
         <div class="menu-header">
           <p class="t-eyebrow reveal">Jelovnik</p>
-          <h2 class="t-h2 reveal" id="jelovnik-h2">Što donosi<br>Jadran i oganj</h2>
+          <h2 class="t-h2 reveal" id="jelovnik-h2">Riblja kuhinja<br>pod zvonikom</h2>
           <p class="reveal">
-            Jelovnik Konobe Kampanel mijenja se prema godišnjem dobu i ulovu dana.
-            Prikazujemo ono što Jadran i naši dobavljači svakodnevno donose na stol.
+            Autentični dalmatinski sastojci — svježa riba dnevnog ulova, domaće maslinovo ulje
+            i ručno rađeni specijaliteti kuće.
           </p>
         </div>
 
         <div class="menu-grid">
 
-          <!-- Riba s Gradela -->
-          <div class="menu-category reveal">
-            <div class="menu-category-head">
-              <div class="menu-category-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M6.5 12C6.5 12 7 6 12 4C17 6 17.5 12 17.5 12"/>
-                  <path d="M6.5 12C6.5 12 7 18 12 20C17 18 17.5 12 17.5 12"/>
-                  <path d="M17.5 12H21L19 10M17.5 12L19 14"/>
-                  <circle cx="9" cy="10" r="1" fill="currentColor" stroke="none"/>
-                </svg>
-              </div>
-              <h3>Riba s Gradela</h3>
-            </div>
-            <ul class="menu-items">
-              <li class="menu-item">
-                <div class="menu-item-name">Riba dana s gradela</div>
-                <div class="menu-item-desc">Svježi ulov — po preporuci konobarića</div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-name">Lignje na žaru</div>
-                <div class="menu-item-desc">S maslinovim uljem, limunom i ružmarinom</div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-name">Škarpina na gradelu</div>
-                <div class="menu-item-desc">Jadranska delikatesa — nježno meso, zlatna korica</div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-name">Brancin u soli</div>
-                <div class="menu-item-desc">Pečen u solnoj kori, poslužen na stolu</div>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Ispod Peke -->
-          <div class="menu-category reveal">
-            <div class="menu-category-head">
-              <div class="menu-category-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M3 18h18"/>
-                  <path d="M5 18V8a7 7 0 0 1 14 0v10"/>
-                  <path d="M8 18v-4a4 4 0 0 1 8 0v4"/>
-                </svg>
-              </div>
-              <h3>Ispod Peke</h3>
-            </div>
-            <ul class="menu-items">
-              <li class="menu-item">
-                <div class="menu-item-name">Janjetina ispod peke</div>
-                <div class="menu-item-desc">Dalmatinska janjetina, polako pečena 3–4 sata</div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-name">Teletina s povrćem</div>
-                <div class="menu-item-desc">Sezonsko povrće, začinsko bilje s otoka Pašmana</div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-name">Hobotnica ispod peke</div>
-                <div class="menu-item-desc">Krumpir, kapula, luk — jednostavno i savršeno</div>
-              </li>
-            </ul>
-            <p style="font-size:12px;color:var(--mid);margin-top:16px;font-style:italic;">
-              * Peka se priprema unaprijed — naručite dan ranije ili nazovite.
-            </p>
-          </div>
-
-          <!-- Školjke & Plodovi Mora -->
           <div class="menu-category reveal">
             <div class="menu-category-head">
               <div class="menu-category-icon" aria-hidden="true">
@@ -1548,29 +1482,24 @@
                   <path d="M12 2C12 2 16 7 16 12C16 17 12 22 12 22"/>
                 </svg>
               </div>
-              <h3>Školjke &amp; Plodovi Mora</h3>
+              <h3>Predjela</h3>
             </div>
             <ul class="menu-items">
               <li class="menu-item">
-                <div class="menu-item-name">Dagnje na buzaru</div>
-                <div class="menu-item-desc">Crno vino, bijeli luk, peršin — klasik koji ne stari</div>
+                <div class="menu-item-name">Plata Kampanel</div>
+                <div class="menu-item-desc">Pašteta od tune i bakalara, slani i marinirani inćuni, hobotnica — za dijeljenje. (2 os. 27 €)</div>
               </li>
               <li class="menu-item">
-                <div class="menu-item-name">Kamenice s mora</div>
-                <div class="menu-item-desc">Svježe, s limunom — ništa više ne treba</div>
+                <div class="menu-item-name">Carpaccio od svježe ribe s tartufima</div>
+                <div class="menu-item-desc">Carpaccio dnevno svježe ribe s tartufima. (25 €)</div>
               </li>
               <li class="menu-item">
-                <div class="menu-item-name">Crni rižot</div>
-                <div class="menu-item-desc">S lignjama i tintom, prema receptu naše bake</div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-name">Brujet od školjki</div>
-                <div class="menu-item-desc">Gusti brodeti začinjeni domaćim rajčicama</div>
+                <div class="menu-item-name">Tuna tartar</div>
+                <div class="menu-item-desc">Tartar od svježe tune. (17 €)</div>
               </li>
             </ul>
           </div>
 
-          <!-- Domaće -->
           <div class="menu-category reveal">
             <div class="menu-category-head">
               <div class="menu-category-icon" aria-hidden="true">
@@ -1579,24 +1508,48 @@
                   <path d="M9 22V12h6v10"/>
                 </svg>
               </div>
-              <h3>Domaće</h3>
+              <h3>Tjestenine</h3>
             </div>
             <ul class="menu-items">
               <li class="menu-item">
-                <div class="menu-item-name">Pašticada s njokima</div>
-                <div class="menu-item-desc">Dalmatinska pašticada — priprema od dva dana</div>
+                <div class="menu-item-name">Domaći crni ravioli s grdobinom</div>
+                <div class="menu-item-desc">Crni ravioli punjeni grdobinom, u umaku od grdobine. (23 €)</div>
               </li>
               <li class="menu-item">
-                <div class="menu-item-name">Restani krumpir</div>
-                <div class="menu-item-desc">S kapulom i domaćim uljem — prilog s dušom</div>
+                <div class="menu-item-name">Domaći makaroni sa škampom</div>
+                <div class="menu-item-desc">Domaći makaroni sa škampima. (28 €)</div>
               </li>
               <li class="menu-item">
-                <div class="menu-item-name">Domaće juhe</div>
-                <div class="menu-item-desc">Goveđa, riblja, mineštra — prema sezoni</div>
+                <div class="menu-item-name">Pašta o' ježa</div>
+                <div class="menu-item-desc">Pašta s ježincima. (29 €)</div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="menu-category reveal">
+            <div class="menu-category-head">
+              <div class="menu-category-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6.5 12C6.5 12 7 6 12 4C17 6 17.5 12 17.5 12"/>
+                  <path d="M6.5 12C6.5 12 7 18 12 20C17 18 17.5 12 17.5 12"/>
+                  <path d="M17.5 12H21L19 10M17.5 12L19 14"/>
+                  <circle cx="9" cy="10" r="1" fill="currentColor" stroke="none"/>
+                </svg>
+              </div>
+              <h3>Riba i meso</h3>
+            </div>
+            <ul class="menu-items">
+              <li class="menu-item">
+                <div class="menu-item-name">Lubin i riba s roštilja</div>
+                <div class="menu-item-desc">Svježa riba dnevnog ulova s gradela, uz blitvu i maslinovo ulje.</div>
               </li>
               <li class="menu-item">
-                <div class="menu-item-name">Sezonske salate</div>
-                <div class="menu-item-desc">Lokalno povrće, maslinovo ulje, morska sol</div>
+                <div class="menu-item-name">Odrezak u umaku od tartufa</div>
+                <div class="menu-item-desc">Odrezak u umaku od tartufa.</div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-item-name">Crni rižoto</div>
+                <div class="menu-item-desc">Crni rižoto od sipe, na tradicionalan dalmatinski način.</div>
               </li>
             </ul>
           </div>
@@ -1605,7 +1558,7 @@
 
         <div class="menu-note reveal">
           <p>
-            <em>Jelovnik se mijenja prema sezoni i ulovu dana.</em>
+            <em>Cijene su iz jelovnika lokala. Ponuda se mijenja prema ulovu dana.</em>
           </p>
         </div>
 
@@ -1624,57 +1577,40 @@
 
           <div class="biograd-image-col reveal">
             <img
-              src="https://loremflickr.com/800/600/biograd,oldtown,stone?lock=103"
-              alt="Stari grad Biograd na Moru — kamene uličice i marina"
+              src="img/kampanel-ulaz-kamen.webp"
+              alt="Kameni ulaz u Konobu Kampanel u starom gradu Biograda"
               loading="lazy"
             />
           </div>
 
           <div class="biograd-text-col">
-            <p class="t-eyebrow reveal">Biograd na Moru</p>
-            <h2 class="t-h2 reveal" id="biograd-h2">Grad koji je<br><em>krunio kraljeve</em></h2>
+            <p class="t-eyebrow reveal">Recenzije</p>
+            <h2 class="t-h2 reveal" id="biograd-h2">Što kažu<br><em>gosti na Googleu</em></h2>
 
             <p class="reveal">
-              Malo koji grad na Jadranu nosi takvu teret povijesti kao Biograd na Moru. U 10. i 11. stoljeću
-              bio je <strong>sjedište hrvatskih vladara</strong> — tu su se krunili kraljevi, tu je stajala
-              hrvatska kraljevska flota. Kameni zidovi starog grada i danas šute o tome, ali tko sluša,
-              čuje dosta.
+              "Hrana, usluga i atmosfera savršeni. Daleko najbolje gastronomsko iskustvo u Biogradu i šire."
+              — <strong>Ivana Vučenović</strong>, Google
             </p>
 
             <p class="reveal">
-              Biograd je danas nešto manje ceremonijalan — ali ništa manje poseban.
-              Marina je jedna od najvećih na Jadranu, polazišna točka za brodove koji plove prema
-              <strong>Kornatu</strong>, prema tihim uvalama <strong>Pašmana</strong>, prema labirintima
-              nacionalnog parka koji je nemoguće opisati riječima. Ribari i dalje polaze rano ujutro
-              i vraćaju se s punim mrežama — a dio toga ulova završi u našoj konobici.
+              "Neopisiv doživljaj Dalmacije! Svježa riba i plodovi mora, crni rižoto, tartar od tune — prefino.
+              Ekipa vesela, jeli smo i pili satima." — <strong>Vlatka Poropat</strong>, Google
             </p>
 
             <p class="reveal">
-              Naši gosti cijene upravo tu autentičnost. Ne tražimo ni hype ni influencere.
-              <strong>4.6 zvjezdica i 211 recenzija</strong> govori jezikom onih koji su sjedili za
-              našim stolom, naručili crni rižot i ostali dulje nego su planirali.
+              "Svake godine otiđemo u Konobu Kampanel i uvijek je poseban doživljaj. Hrana izvrsna,
+              vinska karta također — osjeća se obiteljska atmosfera." — <strong>Ana Božić</strong>, Google
             </p>
 
             <div class="biograd-facts reveal">
               <div class="biograd-fact">
-                <span class="biograd-fact-num">10.</span>
-                <span class="biograd-fact-label">Stoljeće — grad kraljeva</span>
+                <span class="biograd-fact-num">4,7★</span>
+                <span class="biograd-fact-label">Google — 551 recenzija</span>
               </div>
               <div class="biograd-fact">
-                <span class="biograd-fact-num">89</span>
-                <span class="biograd-fact-label">Otoka Kornata</span>
+                <span class="biograd-fact-num">17:00</span>
+                <span class="biograd-fact-label">Otvoreno svaki dan od</span>
               </div>
-              <div class="biograd-fact">
-                <span class="biograd-fact-num">4.6★</span>
-                <span class="biograd-fact-label">TripAdvisor — 211 recenzija</span>
-              </div>
-            </div>
-
-            <div class="biograd-rating reveal">
-              <div class="biograd-rating-stars" aria-hidden="true">★★★★★</div>
-              <p class="biograd-rating-text">
-                "Naši gosti dolaze iz cijelog svijeta — i <strong>vraćaju se.</strong>"
-              </p>
             </div>
           </div>
 
@@ -1700,64 +1636,64 @@
 
           <div class="gallery-item tall" role="listitem">
             <img
-              src="https://loremflickr.com/600/800/konoba,interior,candlelight?lock=104"
-              alt="Unutrašnjost konobe uz svjetlo svjećice"
+              src="img/kampanel-ambijent-svjetla.webp"
+              alt="Kameni prostor konobe pod lampicama, s pladnjem škampa"
               loading="lazy"
             />
           </div>
 
           <div class="gallery-item" role="listitem">
             <img
-              src="https://loremflickr.com/600/400/grilled,fish,dalmatian?lock=105"
-              alt="Riba na gradelu — dalmatinski klasik"
+              src="img/kampanel-lubin.webp"
+              alt="Lubin s roštilja uz blitvu i maslinovo ulje"
               loading="lazy"
             />
           </div>
 
           <div class="gallery-item tall" role="listitem">
             <img
-              src="https://loremflickr.com/600/800/bell,tower,stone,croatia?lock=106"
-              alt="Kameni zvonik — kampanel u Biogradu"
+              src="img/kampanel-terasa-vecer.webp"
+              alt="Terasa Konobe Kampanel navečer, pod lampicama"
               loading="lazy"
             />
           </div>
 
           <div class="gallery-item" role="listitem">
             <img
-              src="https://loremflickr.com/600/400/peka,dalmatian,food?lock=107"
-              alt="Janjetina ispod peke"
+              src="img/kampanel-odrezak-tartufi.webp"
+              alt="Odrezak u umaku od tartufa"
               loading="lazy"
             />
           </div>
 
           <div class="gallery-item" role="listitem">
             <img
-              src="https://loremflickr.com/600/400/marina,boats,biograd?lock=108"
-              alt="Marina u Biogradu na Moru — brodovi i more"
+              src="img/kampanel-terasa.webp"
+              alt="Drvena terasa konobe uz kameni zid starog grada"
               loading="lazy"
             />
           </div>
 
           <div class="gallery-item tall" role="listitem">
             <img
-              src="https://loremflickr.com/600/800/adriatic,seafood?lock=109"
-              alt="Jadranski plodovi mora — dagnje i kamenice"
+              src="img/kampanel-skampi-plating.webp"
+              alt="Pladanj sa škampima i plodovima mora"
               loading="lazy"
             />
           </div>
 
           <div class="gallery-item" role="listitem">
             <img
-              src="https://loremflickr.com/600/400/dalmatian,wine,konoba?lock=110"
-              alt="Domaće dalmatinsko vino"
+              src="img/kampanel-dagnje.webp"
+              alt="Dagnje u glinenoj posudi"
               loading="lazy"
             />
           </div>
 
           <div class="gallery-item" role="listitem">
             <img
-              src="https://loremflickr.com/600/400/stone,street,dalmatia?lock=111"
-              alt="Kamene uličice Dalmacije"
+              src="img/kampanel-tuna-steak.webp"
+              alt="Odrezak tune uz blitvu"
               loading="lazy"
             />
           </div>
@@ -1780,23 +1716,18 @@
           <h2 class="t-h2 reveal" id="rezervacije-h2">Rezervirajte<br>Vaš stol</h2>
 
           <p class="reveal">
-            Biograd u sezoni živi punim tempom — marina je puna, terasa je puna, a mi
-            volimo da svaki gost dobije dovoljno vremena i mira. Preporučamo rezervaciju,
-            posebno vikendima i u srpnju–kolovozu.
+            Konoba se otvara u 17:00, svaki dan. Za stol na kamenoj terasi
+            najsigurnije je nazvati unaprijed.
           </p>
 
           <div class="radno-grid reveal">
             <div class="radno-cell">
               <div class="radno-label">Radno vrijeme</div>
-              <div class="radno-val" style="font-size:clamp(17px,2vw,24px);">Ponedjeljak – Nedjelja</div>
+              <div class="radno-val" style="font-size:clamp(17px,2vw,24px);">Svaki dan</div>
             </div>
             <div class="radno-cell">
               <div class="radno-label">Otvoreni</div>
-              <div class="radno-val">12:00 – 23:00</div>
-            </div>
-            <div class="radno-cell">
-              <div class="radno-label">Kuhinja</div>
-              <div class="radno-val">zatvara u 22:00</div>
+              <div class="radno-val">otvoreno od 17:00</div>
             </div>
           </div>
 
@@ -1812,7 +1743,7 @@
           </div>
 
           <p class="rezervacije-note reveal">
-            Za grupe od 8 i više osoba — peka se naručuje dan ranije. Nazovite ili pišite.
+            Za rezervaciju nazovite ili nam pišite.
           </p>
         </div>
 
@@ -1836,7 +1767,7 @@
             <ul class="kontakt-list">
               <li class="reveal">
                 <span class="k-label">Adresa</span>
-                <span class="k-val">Biograd na Moru, Dalmatija, Hrvatska</span>
+                <span class="k-val">Ul. kralja Kolomana 7, 23210 Biograd na Moru</span>
               </li>
               <li class="reveal">
                 <span class="k-label">Telefon</span>
@@ -1848,7 +1779,7 @@
               </li>
               <li class="reveal">
                 <span class="k-label">Radno Vrijeme</span>
-                <span class="k-val">Pon–Ned · 12:00–23:00</span>
+                <span class="k-val">Svaki dan, otvoreno od 17:00</span>
               </li>
             </ul>
 
@@ -1899,11 +1830,11 @@
         <div class="footer-brand">
           <div class="footer-logo">Kampanel</div>
           <p class="footer-tagline">
-            Riba iz mora. Peka iz ognja.<br>Biograd u srcu.
+            Riba iz mora. Konoba pod zvonikom.<br>Biograd u srcu.
           </p>
           <p class="footer-address">
-            Biograd na Moru, Dalmatija<br>
-            Hrvatska<br><br>
+            Ul. kralja Kolomana 7<br>
+            23210 Biograd na Moru<br><br>
             <a href="tel:+385953123160" style="color:var(--mid);transition:color .2s ease;" onmouseover="this.style.color='var(--accent-soft)'" onmouseout="this.style.color='var(--mid)'">+385 95 312 3160</a>
           </p>
         </div>
@@ -1913,7 +1844,7 @@
           <ul class="footer-links">
             <li><a href="#prica">Naša priča</a></li>
             <li><a href="#jelovnik">Jelovnik</a></li>
-            <li><a href="#biograd">Biograd</a></li>
+            <li><a href="#biograd">Recenzije</a></li>
             <li><a href="#galerija">Galerija</a></li>
             <li><a href="#rezervacije">Rezervacije</a></li>
             <li><a href="#kontakt">Kontakt</a></li>
@@ -1946,14 +1877,14 @@
             </a>
           </div>
 
-          <!-- TripAdvisor badge -->
+          <!-- Google rating badge -->
           <div style="margin-top:28px;padding:16px;border:1px solid var(--line-dark);display:inline-block;">
-            <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:8px;">TripAdvisor</div>
+            <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:8px;">Google</div>
             <div style="display:flex;align-items:center;gap:8px;">
               <span style="font-size:20px;color:var(--accent);">★★★★★</span>
               <div>
-                <div style="font-family:var(--font-display);font-size:18px;color:var(--text-light);line-height:1;">4.6 / 5</div>
-                <div style="font-size:11px;color:var(--mid);margin-top:2px;">211 recenzija</div>
+                <div style="font-family:var(--font-display);font-size:18px;color:var(--text-light);line-height:1;">4,7 / 5</div>
+                <div style="font-size:11px;color:var(--mid);margin-top:2px;">551 recenzija</div>
               </div>
             </div>
           </div>
@@ -1963,7 +1894,7 @@
       </div><!-- /.footer-top -->
 
       <div class="footer-bottom">
-        <p>© 2025 Konoba Kampanel, Biograd na Moru. Sva prava pridržana.</p>
+        <p>© 2026 Konoba Kampanel, Biograd na Moru. Sva prava pridržana.</p>
         <p>
           Biograd na Moru · Dalmacija · Hrvatska
         </p>
